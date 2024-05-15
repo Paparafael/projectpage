@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    overflow-y: scroll;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4287f5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    border-bottom: 3px solid red;
+}
+.map2{
+    margin: 2%;
+    position: absolute;
+    left: 430px;
+    top: 320px;  
+    
+}
+a[href^="tel:"] {
+font-weight: bold;
+color: black;
+text-decoration: none;
+position: absolute;
+right: 500px;
+top: 300px;
+
+}
+.location-wrapper1{
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    left: 75px;
+    text-align: center;
+    
+}
+.location-wrapper2{
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    text-align: center;
+    
+}
+.location-wrapper3{
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    right: 30%;
+    text-align: center;
+    
+}
+.location-wrapper4{
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    text-align: center;
+    
+}
+.map3{
+    margin: 2%;
+    position: absolute;
+    right: 420px;
+    top: 320px;  
+    
+}
+.map1{
+    margin: 2%;
+    position: absolute;
+    left: 70px;
+    top: 320px;  
+    
+}
+.map4{
+    margin: 2%;
+    position: absolute;
+    right: 60px;
+    top: 320px;  
+    
+}
